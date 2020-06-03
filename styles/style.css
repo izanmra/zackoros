@@ -1,0 +1,259 @@
+        @font-face {
+            font-family: Righteous-Regular;
+            src: url("../font/Righteous-Regular.ttf"); 
+        }
+
+        @font-face {
+            font-family: PassionOne-Regular;
+            src: url("../font/PassionOne-Regular.ttf")
+        }
+
+        @font-face {
+            font-family: Helvetica-Bold;
+            src: url("../font/Helvetica-Bold.ttf");
+        }
+
+        @font-face {
+            font-family: Montserrat-Bold;
+            src: url("../font/Montserrat-Bold.ttf");
+        }
+
+        body {
+            background: #bbb3b3;
+            margin:0;
+            font-family: Helvetica;
+        }
+
+        .wrap {
+            background: white;
+            width: 950px;
+            margin-top: 0;
+            margin: 5px auto;
+        }
+
+        hr {
+            border:0;
+            background:rgb(238, 234, 234);
+            height:1px;
+        }
+         
+        header {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            background-image: url("../img/header.jpeg");
+            background-size: cover;
+        }
+
+        nav.menu {
+            overflow: hidden;
+            float: right;
+        }
+
+        nav.menu ul {
+            color:#fff;
+            list-style: none;
+        }
+
+        nav.menu ul li {
+            margin: 0;
+            float: right;
+        }
+
+        nav.menu ul a {
+            padding:5px;
+            margin-right: 40px;
+            display: inline-block;
+            font-family: Montserrat-Bold;
+            font-weight:600;
+            font-size: 16px;
+            color:#fff;
+            text-decoration: none;
+            transition: all 0.5s ease;
+        }
+
+        nav.menu ul a:hover {
+            text-decoration: none;
+            background-color: grey;
+            color: white;
+            border-radius: 40px;
+            opacity: 80%;
+            transition: all 0.5s ease;
+        }
+
+        .headline ul {
+            padding: 0;
+            display: grid;
+            margin-left: 10px;
+            margin-bottom: 0;
+        }
+
+        .headline ul li {
+            line-break: strict;
+        }
+
+        .headline .judul {
+            float: left;
+            color: white;
+            font-family: Montserrat-Bold;
+            font-size: 80px;
+            text-align: left;
+            margin: 0;
+            margin-left: 30px;
+        }
+
+        .headline .deskripsi {
+            float: left;
+            color: white;
+            font-family: Montserrat-Bold;
+            font-size: 25px;
+            text-align: left;
+            margin: 0;
+            margin-left: 30px;
+        }
+
+        .headline .button {
+            padding: 10px;
+            border-style: none;
+            float: left;
+            font-family: Montserrat-Bold;
+            font-size: 11px;
+            color: black;
+            border-radius: 40px;
+            background-color: white;
+            margin-top: 15px;
+            margin-left: 30px;
+            transition: all 0.5s ease;
+        }
+
+        .headline .button a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .headline .button:hover {
+            color: white;
+            background-color: grey;
+            opacity: 80%;
+            transition: all 0.3s;
+        }
+
+        .wrap ul .about {
+            float: left;
+            margin: 0;
+        }
+
+        .about li {
+            display: inline-block;
+            margin-top: 0;
+        }
+
+        .img {
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            margin: 30px auto;
+            margin-right: 30px;
+            transition: all 0.5s ease;
+        }
+
+        .img:hover {
+            width: 400px;
+            height: 400px;
+            transition: all 0.5s ease;
+        }
+
+        .about h2 {
+            text-align: left;
+            color: black;
+            font-family: Montserrat-Bold;
+            font-size: 30px;
+        }
+
+        .about p {
+            text-align: left;
+            color: grey;
+            font-family: Montserrat-Bold;
+            font-size: 15px;
+        }
+
+        .why {
+            font-family: Montserrat-Bold;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .why2 {
+            font-family: Montserrat-Bold;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .reason li {
+            display: inline-block;
+            margin-top: 0;
+            margin: 10px;
+        }
+
+        .img1 {
+            align-content: center;
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            margin: 30px auto;
+            margin-right: 50px;
+            margin-left: 60px;
+            transition: all 0.5s ease;
+        }
+
+        .img1:hover {
+            width: 180px;
+            height: 180px;
+            transition: all 0.5s ease;
+        }
+
+        .reason2 li {
+            align-content: center;
+            display: inline-block;
+            margin-top: 0;
+            margin: 10px;
+        }
+
+        .img2 {
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            transition: all 0.5s ease;
+        }
+
+        .img2:hover {
+            width: 205px;
+            height: 205px;
+            transition: all 0.5s ease;
+        }
+
+        .reason p {
+            font-family: Montserrat-Bold;
+            font-size: 15px;
+            color: grey;
+            align-content: center;
+            text-align: center;
+            margin-top: 0;
+            margin-left: 10px;
+        }
+
+        .footer {
+            background-color: white;
+            padding: 1px;
+        }
+
+        .footer .copy {
+            color: grey;
+            text-align: center;
+            font-family: Montserrat-Bold;
+            font-size: 12px;
+        }
